@@ -5,6 +5,7 @@ pipeline{
       steps{
         echo "hello"
         sh "pwd"
+        sh "sudo cat pom.xml"
         
       }
     }
