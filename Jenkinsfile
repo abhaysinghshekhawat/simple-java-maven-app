@@ -7,6 +7,7 @@ pipeline{
         sh "pwd"
         sh "sudo cat pom.xml"
       }
+    }
       stage('testing2'){
         steps{ 
           git 'https://github.com/vimallinuxworld13/simple-java-maven-app.git'
@@ -17,4 +18,4 @@ pipeline{
           
     }
   }
-}
+
