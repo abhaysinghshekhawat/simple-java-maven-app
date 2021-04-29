@@ -14,7 +14,7 @@ pipeline{
     }
       stage('testing2'){
         steps{ 
-          untash 'myapp'
+          unstash 'myapp'
           sh "ls"
           git 'https://github.com/abhaysinghshekhawat/hdfs_mapred_cluster.git'
           sh "ls"
