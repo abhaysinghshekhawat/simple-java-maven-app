@@ -16,8 +16,10 @@ pipeline{
         steps{ 
           unstash 'myapp'
           sh "ls"
+          sh "cat setup.yml"
           git 'https://github.com/abhaysinghshekhawat/hdfs_mapred_cluster.git'
           sh "ls"
+          sh "cat setup.yml"
           sh "pwd"
         }
       }
