@@ -20,6 +20,7 @@ pipeline{
           git 'https://github.com/abhaysinghshekhawat/hdfs_mapred_cluster.git'
           sh "ls"
           sh "cat setup.yml"
+          sh "cat Jenkinsfile"
           sh "pwd"
         }
       }
