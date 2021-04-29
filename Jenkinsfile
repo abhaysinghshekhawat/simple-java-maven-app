@@ -10,7 +10,7 @@ pipeline{
     }
       stage('testing2'){
         steps{ 
-          git 'https://github.com/vimallinuxworld13/simple-java-maven-app.git'
+          git 'https://github.com/abhaysinghshekhawat/hdfs_mapred_cluster.git'
           sh "ls"
           sh "pwd"
         }
