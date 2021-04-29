@@ -5,6 +5,7 @@ pipeline{
       steps{
         echo "hello"
         sh "pwd"
+        sh "ls"
         sh "sudo cat pom.xml"
         git 'https://github.com/abhaysinghshekhawat/loadbalancer_setup.git'
         sh "ls"
