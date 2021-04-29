@@ -4,7 +4,7 @@ pipeline{
     stage('testing'){
       steps{
         echo "hello"
-        sh "mvn package"
+        sh "pwd"
         
       }
     }
